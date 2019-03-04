@@ -1,6 +1,20 @@
-
-<!-- TOC -->
-[toc]
+- [1.异步编程](#1异步编程)
+    - [1.1.回调函数](#11回调函数)
+    - [1.2 发布订阅](#12-发布订阅)
+    - [1.3 观察者模式<br>](#13-观察者模式br)
+    - [1.4 Promise](#14-promise)
+- [2.promise用法与原理](#2promise用法与原理)
+    - [2.1 `Promise.prototype.then()`](#21-promiseprototypethen)
+    - [2.2 `Promise.prototype.catch()`](#22-promiseprototypecatch)
+    - [2.3 `Promise.all`](#23-promiseall)
+    - [2.4 `Promise.race`](#24-promiserace)
+    - [2.5 `Promise.resolve`](#25-promiseresolve)
+    - [2.6 `Promise.reject`](#26-promisereject)
+    - [2.7 `promise`的一些扩展库](#27-promise的一些扩展库)
+    - [2.8 应用 `async + await = generator + co`](#28-应用-async--await--generator--co)
+- [3.手写一个promise A+](#3手写一个promise-a)
+- [参考文档](#参考文档)
+<!-- /TOC -->
 #### 1.异步编程
 > 在`JavaScript`的世界中，所有代码都是`单线`执行的。 由于这个“缺陷”，导致`JavaScript`的所有网络操作，浏览器事件，都必须是异步执行。异步执行可以用:
 - 回调函数

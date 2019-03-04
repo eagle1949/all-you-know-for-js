@@ -1,4 +1,35 @@
-[toc]
+<!-- TOC -->
+
+- [vue 基础](#vue-基础)
+    - [1.data 数据监控](#1data-数据监控)
+    - [2.vue 数据劫持 Object.defineProperty](#2vue-数据劫持-objectdefineproperty)
+    - [3.vue实例上的方法](#3vue实例上的方法)
+        - [1.vm.$el](#1vmel)
+        - [2.vm.$options](#2vmoptions)
+        - [3.vm.$nextTick](#3vmnexttick)
+        - [4.vm.$watch](#4vmwatch)
+        - [5.vm.$set](#5vmset)
+    - [4.模板template](#4模板template)
+    - [5.directive](#5directive)
+        - [v-html v-once v-if v-show](#v-html-v-once-v-if-v-show)
+        - [v-for](#v-for)
+        - [v-model](#v-model)
+        - [select](#select)
+        - [radio](#radio)
+        - [checkbox](#checkbox)
+        - [修饰符 .number  .trim](#修饰符-number--trim)
+        - [修饰符 键盘修饰符 鼠标的修饰符](#修饰符-键盘修饰符-鼠标的修饰符)
+        - [属性绑定 :  v-bind:  绑定样式 class style  对象 数组（多个） 数组里可以放对象](#属性绑定---v-bind--绑定样式-class-style--对象-数组多个-数组里可以放对象)
+    - [6.computed](#6computed)
+        - [computed 和 watch 区别  watch可以支持异步](#computed-和-watch-区别--watch可以支持异步)
+        - [computed 全选 反选](#computed-全选-反选)
+    - [7. 生命周期](#7-生命周期)
+    - [8. 组件](#8-组件)
+        - [组件开发的优点](#组件开发的优点)
+        - [8.1 组件的定义方式](#81-组件的定义方式)
+        - [8.2 组件传递](#82-组件传递)
+
+<!-- /TOC -->
 ## vue 基础
 ### 1.data 数据监控
 ```
