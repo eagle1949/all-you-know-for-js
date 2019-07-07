@@ -15,7 +15,7 @@
 > ## 04 Node
 
 > ## 05 webpack
-
+1. [webpack 4.0](https://github.com/eagle1949/all-you-know-for-js/issues/8/)
 > ## 06 HTTP
 
 > ## 07 优化方面
